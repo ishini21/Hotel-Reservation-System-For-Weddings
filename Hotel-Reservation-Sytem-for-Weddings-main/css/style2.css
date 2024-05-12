@@ -1,0 +1,125 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@1,300&display=swap');
+
+
+body{
+    font-family:'Noto Sans', sans-serif;
+    background-image:url('images/kawshal.jpg');
+    background-size: cover;
+}
+
+header{
+    width: 80%;
+    height: 95vh;
+    margin:auto;
+    border-color:blanchedalmond ;
+}
+header nav{
+    width: 95%;
+    height: 7%;
+    border:1px solid #000;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    color: beige;
+}
+header nav ul{
+   list-style: none;
+   display:flex;
+}
+header nav ul li{
+    padding: 3px 15px;
+ }
+ header nav ul li:nth-last-child(1){
+    background:#000;
+    border-radius:20px;
+    padding: 5px 20px;
+    
+ }
+ header nav ul li:nth-last-child(1) a{
+    color: #ad1389;
+    
+ }
+ header nav ul li a{
+    text-decoration: none;
+    color:#121213;
+    font-size:13px;
+    font-weight:500;
+    transition: .3s linear;
+ }
+ header nav ul li a:hover{
+    color: goldenrod;
+ }
+
+ footer {
+  background-color: #333;
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+}
+.navbar{
+   width: 100%;
+   height: 5px;
+
+   margin: auto;
+   padding: 35px 0;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   background-color: rgb(39, 38, 36);
+   
+   }
+ 
+.logo{
+   width: 100px;
+   cursor: pointer;
+}
+.navbar ul li {  
+ color: white;
+   list-style: none; 
+   display: inline-block;
+   margin:0 20px;
+   position: relative;
+   font-size: 20px;
+   transition: background-color 1s,color 0.5s,font-weight 0.5s;
+  
+  
+   
+}
+.navbar ul li a{
+
+ border-width: 10px;
+ display: contents;
+ color: white;
+   font-weight: bold;
+   transition: color 0.5s,font-weight 0.5s;
+}
+.navbar ul li:hover{
+
+font-weight: bold;
+background-color: gold;
+height: 35px;
+width: 105px;
+text-align: center;
+border-radius: 50px;
+padding-top: 8px;
+box-shadow:10px 0px 10px 2px gray ;
+color: black;
+font-weight: bold;
+
+}
+.navbar ul li a:hover{
+ color: black;
+ font-weight: bold;
+ 
+}
+.footerh{
+   background-color: #0c0b0b;
+   color: #fff;
+   text-align: center;
+   height: 50px;
+   padding-top :25px ;
+   font-size: 20px;
+  
+ }

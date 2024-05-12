@@ -1,0 +1,160 @@
+*{
+    margin: relative;
+    padding: 0;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+   
+    
+   
+
+}
+html{
+    scroll-behavior: smooth;
+} 
+body{
+    background-image:url('../images/background.jpg');
+    background-size:cover;
+        width: 100%;
+        position: absolute;
+        top:50%;
+        transform:translateY(-50%);
+        text-align: center;
+        color: #1051f5;
+        text-shadow: 0 0 0 black;
+
+    
+}
+
+.navbar{
+    width: 85%;
+    border:black;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;}
+.logo{
+    width: 100px;
+    cursor: pointer;
+}
+.navbar ul li{  
+    
+    list-style: none; 
+    display: inline-block;
+    margin:0 20px;
+    position: relative;
+    
+}
+.navbar ul li a{
+    border-color:black;
+    text-decoration:solid;
+    text-shadow: 15px 15px 150px hsl(114, 8%, 74%);
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-style:bold;
+}
+.navbar ul li::after{
+    content:'';
+    height: 3px;
+    width: 0;
+    background: #009688;
+    position:absolute;
+    left: 0;
+    bottom: -10px;
+   
+    transition:0.5s;
+}
+.navbar ul li:hover::after{
+    width:100%;
+    
+
+}
+.button{
+    text-align: center;
+    margin:center;
+}
+
+p{
+    color:#d105ff10 ;
+    font-size: 17px;
+}
+.content h1{
+     font: size 80px;
+     margin-top: 80px;
+}
+.content p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
+button{
+    font-size: 30px;
+    text-shadow:15px 15px 15px black;
+    width: 200px;
+    padding: 15px 0;
+    text-align:center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #009688;
+    background:transparent;
+    color: #060202;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+
+}
+span{
+    background: #14089e;
+    height:100%;
+    width:0%;
+    border-radius: 25px;
+    position:absolute;
+    left: 0;
+    bottom:0;
+    z-index: -1;
+    transition:0.5s;
+}
+button:hover span{
+    width:100%;
+}
+button:hover{
+    border:none;
+}
+
+.navbar ul li:nth-last-child(1) {
+    background: #000;
+    border-radius: 20px;
+    padding: 5px 20px;
+}
+
+.navbar ul li:nth-last-child(1) a {
+    color: #ad1389;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #121213;
+    font-size: 13px;
+    font-weight: 500;
+    transition: .3s linear;
+}
+
+.navbar ul li a:hover {
+    color: goldenrod;
+    
+}
+.navbar ul li a:hover :active {
+  color: goldenrod;
+  border-width: 5px;
+  border-color: #121213;
+}
+.footerh{
+    background-color: #0c0b0b;
+    color: #fff;
+    text-align: center;
+    height: 50px;
+    padding-top :25px ;
+    font-size: 20px;
+   
+  }

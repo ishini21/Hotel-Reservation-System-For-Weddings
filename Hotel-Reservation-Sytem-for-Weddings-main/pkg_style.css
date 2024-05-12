@@ -1,0 +1,192 @@
+
+p1{
+    position: absolute;
+    top: 10%;
+    left: 33%;
+    font-size: xx-large;
+    color: black;
+    background-color: lightblue;
+    padding: 1%;
+    border-radius: 10%;
+  }
+   p2{
+    text-align: center;
+    color: deeppink;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    font-style: oblique;
+    position: absolute;
+    top:25%;
+    left: 20%;  
+}
+p3{
+    color: black;
+    font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    top:33%;
+    background-color: powderblue;
+    padding: 1%;
+    border-radius: 20%;
+}
+.pkgde1{
+    color: black;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 1500px;
+    margin: 20px;
+    position: absolute;
+    top:40%;
+   
+}
+#button1{
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 42px;
+    text-align: left;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 100px;
+    left: 2790px;
+}
+p4{
+    color: black;
+    font-size: x-large;
+    margin: 30px;
+    position: absolute;
+    top:50%;
+    background-color: darksalmon;
+    padding: 0.3%;
+}
+.pkgde2{
+    color: black;
+    position: absolute;
+    top:59%;
+}
+p5{
+    color: black;
+    font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    top:88%;
+    background-color: powderblue;
+    padding: 1%;
+    border-radius: 20%;
+}
+.pkgde3{
+    color: black;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 1500px;
+    margin: 20px;
+    position: absolute;
+    top:95%;
+}
+p6{
+    color: black;
+    font-size: x-large;
+    margin: 30px;
+    position: absolute;
+    top:105%;
+    background-color: darksalmon;
+    padding: 0.3%;
+}
+.pkgde4{
+    color: black;
+    position: absolute;
+    top:115%;
+}
+p7{
+    color: black;
+    font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    top:144%;
+    background-color: powderblue;
+    padding: 1%;
+    border-radius: 20%;
+}
+.pkgde5{
+    color: black;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 1500px;
+    margin: 20px;
+    position: absolute;
+    top: 151%;
+}
+p8{
+    color: black;
+    font-size: x-large;
+    margin: 30px;
+    position: absolute;
+    top:161%;
+    background-color: darksalmon;
+    padding: 0.3%;
+}
+.pkgde6{
+    color: black;
+    position: absolute;
+    top:172%;
+}
+p9{
+    color: slateblue;
+    font-family: cursive;
+    top:502%;
+}
+.heading{
+    position: absolute;
+    top: 10%;
+    left: 33%;
+    font-size: xx-large;
+    color: ivory;
+    background-color: darkgreen;
+    padding: 1%;
+    border-radius: 10%;
+  }
+.container{
+    font-size: x-large;
+    margin-left: 15%;
+    position: absolute;
+    top: 25%;
+    background-color: palegreen;
+    padding: 2%;
+}
+#button2{
+   background-color: grey;
+   border: none;
+   color: white;
+   padding: 15px 42px;
+   text-align: left;
+   display: inline-block;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: large;
+}
+#b1{
+    background-color: indigo;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width:90%;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+  }
+  td, th {
+    text-align: center;
+    padding: 8px;
+
+  }
+  
+  
+  

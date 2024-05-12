@@ -1,0 +1,59 @@
+div.register {
+    margin: 30px;
+    background: white;
+    text-align: center;
+    height: 300px;
+    width: 200px;
+    justify-content: center;
+}
+
+div.form {
+    margin: 30px;
+    padding: 10px;
+    background: white;
+    border: 1px solid black;
+    clear: both;
+    justify-content: center;
+    text-align: center;
+    width: 500px;
+    display: flex;
+    /* position: fixed; */
+    transform: -50% -50%;
+    top: 50%;
+    left: 50%;
+    flex-direction: column;
+}
+ 
+.container {
+    /* background: transparent; */
+    background-color: rgba(236, 226, 226, 0.426);
+    clear: both;
+    /* margin-top: 100px; */
+    width: 300px;
+    margin: 200px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+  }
+  
+  
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-top: 10px;
+  }
+  
+  input {
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+  
+  button {
+    padding: 10px;
+  }
+  

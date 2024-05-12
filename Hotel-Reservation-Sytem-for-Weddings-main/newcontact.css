@@ -1,0 +1,255 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+header h3{
+    background: darkgray;
+    text-align: center;
+    padding:10px 0px;
+    font-size:30px;
+
+}
+
+body {
+    background-image: url('../images/contactus.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    display: cover;
+    
+}
+h1 {
+    color: rgb(106, 0, 255);
+    font-size: 60px;
+    text-align:center;
+    padding-top: 10px;
+   
+    background-color: grey;
+}
+
+.sup{
+text-align: center;
+
+color: #000;
+color:rgb(236, 181, 13);
+display: block;
+}
+
+nav{
+ 
+    font-size: 30px;
+
+}
+
+nav ul li {
+    display: inline-block;
+    word-spacing: 10vh;
+    
+}
+a{
+    display:contents;
+}
+nav ul li:hover{
+    font-size: 20px;
+    color: gold;
+    font-style: bold;
+}
+button{
+    font-size: 25px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-radius:25px;
+    height: 50px;
+    transition: width 1s , height 1s,font-size 1s;
+}
+button:hover{
+    cursor: pointer;
+    border-radius:25px;
+    box-shadow:10px 0px 10px 2px gray ;
+    width: 248.667px;
+    height: 45px;
+    text-align: center;
+    font-size:22px;
+    transition: width 1s , height 1s,font-size 1s;
+    
+}
+p{
+    font-size:20px;
+    color:blue;
+    text-align: left;
+
+}
+
+div.details{
+    float: left;
+    background-color: aquamarine;
+    padding: 10px 10px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+div.details h2{
+    text-align: right;
+    
+}
+.box{
+    float:right;
+}
+.findus{
+    text-align:center;
+    font-size: 35px;
+}
+
+div.socialmedia {
+    float: left;
+    clear: both;
+    margin-top: 30px;
+}
+
+div.socialmedia img {
+    width: 20px;
+    height: 20px;
+    display: inline;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+div.main {
+    position: relative;
+}
+
+div.register {
+    margin: 30px;
+    background: white;
+    text-align: center;
+    height: 300px;
+    width: 200px;
+    justify-content: center;
+}
+
+div.form {
+    margin: 30px;
+    padding: 10px;
+    background: white;
+    border: 1px solid black;
+    clear: both;
+    justify-content: center;
+    text-align: center;
+    width: 500px;
+    display: flex;
+    /* position: fixed; */
+    transform: -50% -50%;
+    top: 50%;
+    left: 50%;
+    flex-direction: column;
+}
+ 
+.container {
+    /* background: transparent; */
+    background-color: rgba(236, 226, 226, 0.426);
+    clear: both;
+    /* margin-top: 100px; */
+    width: 300px;
+    margin-left:500px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+  }
+  
+  
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-top: 10px;
+  }
+  
+  input {
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+  
+  button {
+    padding:10px;
+}
+.navbar{
+    width: 100%;
+    height: 5px;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(39, 38, 36);
+    margin: auto;
+    
+    }
+  
+ .logo{
+    width: 100px;
+    cursor: pointer;
+ }
+ .navbar ul li {  
+  color: white;
+    list-style: none; 
+    display: inline-block;
+    margin:0 20px;
+    position: relative;
+    font-size: 20px;
+    transition: background-color 1s,color 0.5s,font-weight 0.5s;
+   
+   
+    
+ }
+ .navbar ul li a{
+ 
+  border-width: 10px;
+  display: contents;
+  color: white;
+    font-weight: bold;
+    transition: color 0.5s,font-weight 0.5s;
+ }
+ .navbar ul li:hover{
+ 
+ font-weight: bold;
+ background-color: gold;
+ height: 35px;
+ width: 105px;
+ text-align: center;
+ border-radius: 50px;
+ padding-top: 8px;
+ box-shadow:10px 0px 10px 2px gray ;
+ color: black;
+ font-weight: bold;
+ 
+ }
+ .navbar ul li a:hover{
+  color: black;
+  font-weight: bold;
+  
+ }
+ .footerh{
+    background-color: #0c0b0b;
+    color: #fff;
+    text-align: center;
+    height: 50px;
+    padding-top :25px ;
+    font-size: 20px;
+   
+  }
+  .socialmedia{
+    background-color: grey;
+    width:100%;
+    justify-content: space-between;
+    text-align:center;}

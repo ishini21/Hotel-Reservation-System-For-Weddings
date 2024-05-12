@@ -1,0 +1,174 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+header h3{
+    background: darkgray;
+    text-align: center;
+    padding:10px 0px;
+    font-size:30px;
+
+}
+
+body {
+    background-image: url('../image/wedding.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+h1 {
+    color: blue;
+    font-size: 60px;
+    text-align:center;
+    padding-top: 20px;
+    margin: 10px;
+}
+
+.sup{
+text-align: center;
+margin-top:  30px;
+}
+
+nav{
+    float:right;
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+nav ul li {
+    display: inline-block;
+    word-spacing: 10vh;
+    
+}
+a{
+    display:contents;
+}
+nav ul li:hover{
+    font-size: 20px;
+    color: gold;
+    font-style: bold;
+}
+button{
+    font-size: 40px;
+    background-color: black;
+    color: white;
+}
+button::after:hover{
+    background-color: gold;
+    animation: infinite;
+    transition-property: all;
+    transition-duration: 0.5s;
+    
+}
+p{
+    font-size:20px;
+    color:blue;
+    text-align: left;
+
+}
+
+div.wrapper {
+    justify-content: center;
+    align-items: center;
+}
+
+
+div.details{
+    float: left;
+    background-color: aquamarine;
+    padding: 10px 10px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+div.details h2{
+    text-align: left;
+}
+
+div.socialcol {
+    margin: 20px;
+}
+
+div.socialmedia {
+    float: left;
+    clear: both;
+    margin-top: 30px;
+}
+
+div.socialmedia img {
+    width: 20px;
+    height: 20px;
+    display: inline;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+div.main {
+    position: relative;
+}
+
+div.register {
+    margin: 30px;
+    background: white;
+    text-align: center;
+    height: 300px;
+    width: 200px;
+    justify-content: center;
+}
+
+div.form {
+    margin: 30px;
+    padding: 10px;
+    background: white;
+    border: 1px solid black;
+    clear: both;
+    justify-content: center;
+    text-align: center;
+    width: 500px;
+    display: flex;
+    /* position: fixed; */
+    transform: -50% -50%;
+    top: 50%;
+    left: 50%;
+    flex-direction: column;
+}
+ 
+.container {
+    background: transparent; 
+    background-color: rgba(236, 226, 226, 0.426);
+    clear: both;
+    margin-top: 100px; 
+    width: 300px;
+    margin: 200px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+  }
+  
+  
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-top: 10px;
+  }
+  
+  input {
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+  
+  button {
+    padding: 10px;
+  }
+  

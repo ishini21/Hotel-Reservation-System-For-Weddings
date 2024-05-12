@@ -1,0 +1,62 @@
+
+<html>
+    <head>
+        <title> website</title>
+<link rel="stylesheet" href="style.css"></link>
+<style>
+div {
+      border: 2px auto #bbbbc7;
+      padding: 20px;
+      width:min-content;
+      text-align: center;
+      background-attachment:inherit;
+    }
+  </style>
+    </head><br><br><br><br>
+        <body>
+            <header>
+                <h1 class="mainhead">Wedding Hotel Reservation</h1>
+              </header>
+              <div class="navbar">
+                <img src="logo.jpeg" class="logo">
+                <ul>
+                  <li><a href="home.html">home</a></li>
+                  <li><a href="venue.html">venues</a></li>
+                  <li><a href="pkg.html">packages</a></li>
+                  <li><a href="contactus.html">contact us</a></li>
+                  <li><a href="gallary.html">Gallery</a></li>
+                  <li><a href="log.html">Login</a></li>
+            </div><br><br>
+        
+        <div class="create">
+            <h1>Create Account</h1>
+            <h4>Please enter your details to create an account</h4>
+<form action="create_acc.php" method="post">
+    <label  font style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: bold;" margin-bottom: 10px; for="first name">First name</label><br>
+    <input type="text" name="firstname"><br><br>
+    <label font style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: bold;" for="last name">Last Name</label><br>
+    <input type="text"name="lastname"><br><br>
+    <label  font style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: bold;" for="gender">Gender</label><br>
+    <label>Male</label>
+    <input type="checkbox" name="male" value="male">
+    <label>femle</label>
+    <input type="checkbox" name="female" value="female"><br><br>
+    <label  font style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: bold;" for="email">Email</label><br>
+    <input type="text" name="e-mail"><br><br>
+    <label  font style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: bold;" for="phonenumber">Phone number</label><br>
+    <input type="tel" name="Phone"> <br><br>
+    <label  font style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: bold;" for="Password">Password</label><br>
+    <input type="password" name="password"><br><br>
+    <input type="submit" class="ca">
+    <br>
+
+</form>
+
+<p>Do you have an account?</p><a href="log.html">Click here to login</a>
+        </div><br><br>
+        <footer>
+            <p>&copy; 2023 Hotel Reservation System</p>
+          </footer>
+
+    </body>
+</html>

@@ -1,0 +1,279 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+header h3{
+    background: darkgray;
+    text-align: center;
+    padding:10px 0px;
+    font-size:30px;
+
+}
+
+body {
+    background-image: url('../image/wedding.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    display: cover;
+     
+}
+h1 {
+    color: rgb(106, 0, 255);
+    font-size: 60px;
+    text-align:center;
+    padding-top: 10px;
+   
+    background-color: grey;
+}
+
+.sup{
+text-align: center;
+
+color: #000;
+color:rgb(236, 181, 13);
+display: block;
+}
+
+nav{
+ 
+    font-size: 30px;
+
+}
+
+nav ul li {
+    display: inline-block;
+    word-spacing: 10vh;
+    
+}
+a{
+    display:contents;
+}
+nav ul li:hover{
+    font-size: 20px;
+    color: gold;
+    font-style: bold;
+}
+button{
+    font-size: 25px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-radius:25px;
+    height: 50px;
+    transition: width 1s , height 1s,font-size 1s;
+}
+button:hover{
+    cursor: pointer;
+    border-radius:25px;
+    box-shadow:10px 0px 10px 2px gray ;
+    width: 248.667px;
+    height: 45px;
+    text-align: center;
+    font-size:22px;
+    transition: width 1s , height 1s,font-size 1s;
+    
+}
+p{
+    font-size:20px;
+    color:blue;
+    text-align: left;
+
+}
+
+div.details{
+    float: left;
+    background-color: aquamarine;
+    padding: 10px 10px;
+    text-align: center;
+}
+
+div.details h2{
+    text-align: right;
+    
+}
+.box{
+    float:right;
+}
+/* .findus{
+    float: left;
+    text-align:center;
+    font-size: 35px;
+} */
+
+div.socialmedia {
+    
+    clear: both;
+    margin-top: 30px;
+    float: left;
+    background-color: grey;
+    justify-content: space-between;
+    text-align:center;
+}
+
+div.socialmedia img {
+    width: 20px;
+    height: 20px;
+    display: inline;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+div.mainn {
+    display: flex;
+}
+
+
+ 
+.container {
+    background-color: rgba(236, 226, 226, 0.426);
+    width: 50%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+  }
+
+div.select select {
+    display: block;
+    width: 100%;
+    padding: 5px 0;
+    margin-bottom: 10px;
+}
+  
+  
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-top: 10px;
+  }
+  
+  input {
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+  
+  button {
+    padding:10px;
+}
+.navbar{
+    width: 100%;
+    height: 5px;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(39, 38, 36);
+    margin: auto;
+    
+    }
+  
+ .logo{
+    width: 100px;
+    cursor: pointer;
+ }
+ .navbar ul li {  
+  color: white;
+    list-style: none; 
+    display: inline-block;
+    margin:0 20px;
+    position: relative;
+    font-size: 20px;
+    transition: background-color 1s,color 0.5s,font-weight 0.5s;
+   
+   
+    
+ }
+ .navbar ul li a{
+ 
+  border-width: 10px;
+  display: contents;
+  color: white;
+    font-weight: bold;
+    transition: color 0.5s,font-weight 0.5s;
+ }
+ .navbar ul li:hover{
+ 
+ font-weight: bold;
+ background-color: gold;
+ height: 35px;
+ width: 105px;
+ text-align: center;
+ border-radius: 50px;
+ padding-top: 8px;
+ box-shadow:10px 0px 10px 2px gray ;
+ color: black;
+ font-weight: bold;
+ 
+ }
+ .navbar ul li a:hover{
+  color: black;
+  font-weight: bold;
+  
+ }
+
+footer{
+    background-color: white;
+}
+
+.social-col {
+    background-color: aliceblue;
+}
+
+.social{
+    float: left;
+    align-items: center;
+    clear: both;
+    display: block;
+}
+
+.social img {
+    width: 20px;
+    height: 20px;
+    display: inline;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.contact{
+    float: right;
+    margin-left: 100px;
+
+}
+
+#comment{
+    display: block;
+    clear:both;
+}
+
+.text{
+    margin-bottom: 10px;
+}
+
+.message{
+    background-color: rgba(236, 226, 226, 0.426);
+    flex-grow: 1; 
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+
+table.block th, table.block td{
+    color: black;
+    word-spacing: 10vh;
+    padding: 10px;
+    padding-right: 30px;
+   
+}

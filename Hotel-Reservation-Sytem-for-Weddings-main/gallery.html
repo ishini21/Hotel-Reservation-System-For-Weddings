@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wedding Gallery</title>
+  <link rel="stylesheet" href="css/gallery.css">
+</head>
+
+<body>
+  <header>
+    <h1>Wedding Hotel Reservation</h1>
+  </header>
+  <div class="navbar">
+    <img src="images/logo.png" class="logo">
+    <ul>
+      <li><a href="home.html">home</a></li>
+      <li><a href="venue.html">venues</a></li>
+      <li><a href="package.html">packages</a></li>
+      <li><a href="contactus.html">contact us</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="login.html">Login</a></li>
+</div>
+
+<form id="upload-form" enctype="multipart/form-data">
+  <input type="file" id="image-upload" accept="image/*" required>
+  <button type="submit">Upload</button>
+</form>
+
+<div id="image-gallery"></div>
+
+<script src="script.js"></script>
+
+  <footer>
+    <p class="footerh">&copy; 2023 Hotel Reservation System</p>
+  </footer>
+</body>
+
+</html>
